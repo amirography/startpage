@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-color {
+    @apply transition-all hover:border-text text-sm italic text-transparent border-subtle border tracking-widest font-light rounded-none p-1  sm:col-span-full;
+  }
+  .search-input {
+    @apply transition-all col-span-4  text-center  m-1 focus:outline-none;
+  }
+
+  .search-box {
+    @apply transition-all grid  grid-cols-5  items-center border-subtle border focus-within:border-text hover:border-text  ;
+  }
+  .search-label {
+    @apply  transition-all text-center text-sm;
+  }
+}
