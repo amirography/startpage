@@ -10,6 +10,7 @@ module.exports = {
 			'lg': { 'min': '600px', }
 		},
 		extend: {
+
 			colors: {
 				'pine': '#31748f',
 				'rose': '#ebbcba',
@@ -29,9 +30,9 @@ module.exports = {
 			},
 		},
 		fontFamily: {
-			sans: ['Cartograph CF', 'sans-serif'],
-			serif: ['Cartograph CF', 'serif'],
-			monospace: ['Cartograph CF', 'monospace'],
+			sans: ['Recursive', 'sans-serif'],
+			serif: ['Recursive', 'serif'],
+			monospace: ['Recursive', 'monospace'],
 		},
 	},
 
